@@ -1,0 +1,8 @@
+title: "Home Lab Blog"
+description: "Documenting my cybersecurity homelab journey."
+theme: minima
+
+# Enable blog posts
+collections:
+  posts:
+    output: true
