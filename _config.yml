@@ -1,4 +1,4 @@
-title: "Home Lab Blog"
+title: "HomeLab Blog"
 description: "Documenting my cybersecurity homelab journey."
 theme: minima
 
@@ -6,3 +6,7 @@ theme: minima
 collections:
   posts:
     output: true
+
+# Hide duplicate title in footer
+show_excerpts: false
+header_pages: []
