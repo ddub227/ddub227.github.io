@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Home
+title: Joshua Budd's Infrastructure Lab
 ---
 
-Welcome to my cybersecurity homelab blog. I document hands-on work building and attacking a Windows Active Directory environment - the kind of practical experience expected from SOC analysts and security engineers.
+Welcome to my technical portfolio. I document hands-on work building, securing, and troubleshooting enterprise systems - Active Directory, SIEM deployment, networking, and virtualization. The kind of practical experience valued in security, cloud, and infrastructure roles.
 
 **What's here:**
 - [Blog Posts](#posts) - Attack walkthroughs, SIEM deployment, troubleshooting
