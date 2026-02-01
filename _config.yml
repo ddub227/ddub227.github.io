@@ -1,12 +1,38 @@
 title: "HomeLab Blog"
-description: "Documenting my cybersecurity homelab journey."
+description: "Documenting my cybersecurity homelab journey - Active Directory, Splunk SIEM, and security monitoring."
 theme: minima
+url: "https://ddub227.github.io"
 
-# Enable blog posts
+# Collections
 collections:
-  posts:
+  docs:
     output: true
+    permalink: /docs/:path/
 
-# Hide duplicate title in footer
-show_excerpts: false
-header_pages: []
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Navigation
+header_pages:
+  - about.md
+  - docs.md
+
+# Blog settings
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# Syntax highlighting
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
