@@ -1,4 +1,4 @@
-This document defines my personal cybersecurity home lab built for research and development of hands-on work expected from SOC analysts and junior security engineers. The goal is to exemplify repeatable, real-world skills in monitoring, hardening, and experimentation with systems in a controlled environment.
+This is my personal infrastructure lab for hands-on learning and skill development. I document work building, securing, and troubleshooting enterprise systems - Active Directory, SIEM deployment, networking, and virtualization. The kind of practical experience valued in security, cloud, and infrastructure roles.
 
 The lab exists as an isolated, always-breakable environment for testing attacks, defenses, and misconfigurations without risking production or customer infrastructure. It takes concepts from CompTIA Security+ material, on-the-job field work, and day-to-day Linux usage and turns them into concrete scenarios that can be built, torn down, and improved over time.
 

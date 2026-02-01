@@ -4,7 +4,7 @@ title: Documentation
 permalink: /docs/
 ---
 
-Technical documentation for my cybersecurity homelab environment.
+Technical documentation for my infrastructure lab environment.
 
 ---
 

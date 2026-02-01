@@ -6,30 +6,32 @@ permalink: /about/
 
 ## About This Site
 
-This blog documents my cybersecurity homelab journey - building, breaking, and defending a Windows Active Directory environment for hands-on learning.
+This site documents my infrastructure lab journey - building, configuring, and troubleshooting enterprise systems for hands-on learning.
 
 ## The Lab
 
-I've built a virtualized security lab environment featuring:
+I've built a virtualized lab environment featuring:
 
 - **Windows Server 2022** domain controller with Active Directory
 - **Windows 11** workstations with Sysmon for enhanced logging
 - **Splunk Enterprise** SIEM for centralized log collection
-- **Kali Linux** attack platform for red team exercises
+- **Kali Linux** for security testing
+- **Docker** containerized services
+- **VirtualBox** network segmentation
 
-The goal: understand both offensive techniques and defensive detection - the full picture of how attacks work and how to catch them.
+The goal: gain practical experience with the systems and tools used in real enterprise environments.
 
 ## About Me
 
-I'm transitioning into cybersecurity with a focus on SOC analyst and blue team roles. Currently pursuing CompTIA Security+ while building practical skills through this homelab.
+I'm transitioning into IT with interests in security, cloud, and infrastructure roles. Currently pursuing CompTIA Security+ while building practical skills through this homelab.
 
-Background includes field service work, compliance procedures, and team leadership. Now channeling that experience toward IT security.
+Background includes field service work, compliance procedures, and team leadership. Now channeling that experience toward technical IT roles.
 
 ## What You'll Find Here
 
-- **Blog Posts**: Detailed walkthroughs of lab exercises, attacks, and lessons learned
+- **Blog Posts**: Detailed walkthroughs of lab projects and lessons learned
 - **Documentation**: Technical specs, network diagrams, and configuration references
-- **Learning Resources**: Commands, concepts, and detection rules
+- **Learning Resources**: Commands, concepts, and troubleshooting guides
 
 ## Connect
 
