@@ -2,6 +2,7 @@ title: "HomeLab Blog"
 description: "Documenting my cybersecurity homelab journey - Active Directory, Splunk SIEM, and security monitoring."
 theme: minima
 url: "https://ddub227.github.io"
+github_username: ddub227
 
 # Collections
 collections:
