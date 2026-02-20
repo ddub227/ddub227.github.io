@@ -201,4 +201,4 @@ JayBrain rebuilt the best ideas from Halo (persistent memory, hybrid search, ses
 ---
 
 *Session Duration: ~4 hours*
-*Lab: JJ Budd's Learn Out Loud Lab*
+*Lab: Joshua Budd's Homelab*
