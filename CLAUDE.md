@@ -15,3 +15,5 @@ Top-level directories (tracked-file count):
 Root files: `CLAUDE.md`, `README.md`, `_config.yml`, `about.md`, `blog.md`, `docs.md`, `index.md`
 
 <!-- REPO-INDEXER:FILEMAP:END -->
+
+<!-- build-ledger: BLOG | tracked in JJ's global build ledger vault/career/build-ledger.md -->
