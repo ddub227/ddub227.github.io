@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Joshua Budd's Infrastructure Lab
+title: Joshua Budd's Homelab
 ---
 
 Welcome to my technical portfolio. I document hands-on work building, securing, and troubleshooting enterprise systems - Active Directory, SIEM deployment, networking, and virtualization. The kind of practical experience valued in security, cloud, and infrastructure roles.
