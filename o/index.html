@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Open in Obsidian</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<!--
+  Opener for JJ's Obsidian notes (Aegis A.U.040). Telegram will not make an obsidian:// link
+  tappable, so a ping links here instead: https://ddub227.github.io/o/#<vault>/<path-without-.md>
+  The note path lives in the URL fragment, which a browser never sends to the server, so no
+  note name reaches GitHub. This page holds no content and calls nothing; it only hands the
+  fragment to the Obsidian app on the phone.
+-->
+<style>
+  :root { --bg:#f2eee4; --fg:#16130d; --btn:#6c4ad0; --btnfg:#fff; --muted:#6b6455; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16130d; --fg:#f2eee4; --muted:#a59d8c; } }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+         background:var(--bg); color:var(--fg); text-align:center; padding:18vh 16px; line-height:1.5; }
+  a.btn { display:inline-block; background:var(--btn); color:var(--btnfg); text-decoration:none;
+          font-size:1.2rem; padding:16px 28px; border-radius:12px; }
+  p { color:var(--muted); font-size:.95rem; word-break:break-all; }
+</style>
+</head>
+<body>
+<a class="btn" id="go" href="#">Open in Obsidian</a>
+<p id="what"></p>
+<script>
+  (function () {
+    var raw = decodeURIComponent(location.hash.replace(/^#/, ""));
+    var cut = raw.indexOf("/");
+    var vault = cut > 0 ? raw.slice(0, cut) : "";
+    var file = cut > 0 ? raw.slice(cut + 1) : "";
+    var ok = /^[A-Za-z0-9 _.-]{1,64}$/.test(vault) && /^[^<>:"\\|?*]{1,400}$/.test(file) && file.indexOf("..") < 0;
+    var go = document.getElementById("go"), what = document.getElementById("what");
+    if (!ok) { go.style.display = "none"; what.textContent = "This link is missing its note."; return; }
+    var url = "obsidian://open?vault=" + encodeURIComponent(vault) + "&file=" + encodeURIComponent(file);
+    go.href = url;
+    what.textContent = vault + " / " + file;
+    location.href = url;
+  })();
+</script>
+</body>
+</html>
